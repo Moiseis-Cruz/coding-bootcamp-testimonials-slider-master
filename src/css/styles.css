@@ -1,0 +1,24 @@
+main {
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+}
+
+.section {
+    display: flex;
+}
+
+.section .container-info .description {
+    max-width: 650px;
+}
+
+.section .container-info .profile-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(240, 18%, 77%);
+}
+
+.section .container-info .profile-name span {
+    font-weight: 700;
+    color: hsl(240, 38%, 20%);
+}
