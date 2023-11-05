@@ -11,9 +11,11 @@ body {
     /* font-weight: 500; */
     /* font-weight: 700; */
     font-weight: 300;
-    max-width: 1440px;
+    width: 100%;
+    /* max-width: 1440px; */
     height: 100vh;
     color: hsl(240, 38%, 20%);
+    /* background-color: brown; */
 }
 
 img {
