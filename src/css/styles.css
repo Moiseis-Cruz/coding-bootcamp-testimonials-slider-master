@@ -1,11 +1,19 @@
 main {
     width: 100%;
+    max-width: 1440px;
     height: 100%;
     font-size: 32px;
+    /* background-color: gray; */
+    margin: auto;
 }
 
 .section {
     display: flex;
+    /* background-color: cadetblue; */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .section .container-info .description {
@@ -13,9 +21,10 @@ main {
 }
 
 .section .container-info .profile-name {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 500;
     color: hsl(240, 18%, 77%);
+    margin-top: 30px;
 }
 
 .section .container-info .profile-name span {
